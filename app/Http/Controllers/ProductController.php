@@ -7,9 +7,25 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    /**
+   
+     public function __construct()
+     {
+
+
+        // First Way
+
+        // $this->middleware('auth')->except(['index','show']);
+
+         // Second Way
+        // $this->middleware('auth')->only(['store','create','edit','delete','update']);
+        
+     }
+
+      /**
      * Display a listing of the resource.
      */
+
+
     public function index()
     {
         $products = Product::latest()->paginate(5);
