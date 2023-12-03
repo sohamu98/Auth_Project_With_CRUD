@@ -50,7 +50,7 @@ return [
             'port' => env('DB_PORT', '3306'),
             'database' => 'products',
             'username' => 'soha',
-            'password' => '3x+4y+5z+6w=00',
+            'password' => '1q2w3e+1q2w3e',
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
